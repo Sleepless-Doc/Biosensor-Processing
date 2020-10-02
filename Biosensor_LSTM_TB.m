@@ -5,7 +5,7 @@ clc
 load Toy_Dataset.mat
 
 %Select classification type: 0 - binary, 1 - concentration
-Classification_type = 1;
+Classification_type = 0;
 
 %Select feature extraction methods: 1 - yes, 0 - no
 FE_raw_data = 1;
@@ -28,7 +28,7 @@ else                        %Concentration Classification
     numHiddenUnits = 180;
     training_labels = toy_training_labels_concentration;
     test_labels = toy_testing_labels_concentration;
-    classLabels = ["0然", "25然", "50然", "75然", "100然"]';
+    classLabels = ["0繕M", "25繕M", "50繕M", "75繕M", "100繕M"]';
 end
 
 training_data = Prep_data(toy_training_data,FE_array);
