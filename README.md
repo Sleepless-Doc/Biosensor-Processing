@@ -1,7 +1,7 @@
 # Biosensor-Processing
 
 CC BY-NC-SA 2.0
-Copyright 2020 ©️ DECoNT.
+Copyright 2020
 For commercial usage, please contact: urartu@bilkent.edu.tr
 
 Biosensor data processing
